@@ -1,0 +1,160 @@
+*{
+  font-family: ヒラギノ角ゴシック,游ゴシック;
+}
+body {
+    text-align:center;
+}
+p{
+  color: rgb(83, 83, 83);
+
+}
+h1{ 
+  font-size:70px;
+  color:beige;
+  background-color:cadetblue;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+h2{
+  text-align:left;
+  font-size:40px;
+  color:beige;
+  background-color:cadetblue;
+  width: 100%;
+  margin: auto;
+  padding: 20px;
+}
+
+
+h3{
+  font-size: 30px;
+  color: cadetblue;
+  text-align:center;
+}
+h3#head{
+  font-size: 30px;
+  color: cadetblue;
+  margin: 10px 550px 10px 0;
+}
+p#hi{
+  color: rgb(83, 83, 83);
+  height: 10px;
+  width: 600px;
+  margin: 0 300px 0 50px;
+  padding: 0px;
+}
+
+p#ho {
+  color: rgb(83, 83, 83);
+  height: 10px;
+  width: 200px;
+  margin: auto 0 10px 700px;
+  padding: 30px;
+
+
+}
+p#to{
+  margin: 0 400px 0 50px;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+.add {
+  margin: auto;
+}
+.log a{
+  color: #fff;
+  background: #5876a3;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 5px;
+}
+
+.logout a{
+  color: #fff;
+  background: #5876a3;
+  padding: 10px 30px;
+  display: inline-block;
+  border-radius: 5px;
+  text-decoration: none;
+  margin: 0 0 70px 500px;
+}
+
+
+.c-form-text:focus {
+  outline: 0;
+  box-shadow: 0 0 0 2px rgb(33, 150, 243) inset;
+}
+
+.c-form-submit-button {
+  display: inline-block;
+  margin: 5px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  background-color: #5876a3;
+  color: #fff;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  cursor: pointer;
+
+}
+
+.c-form-submit-button:hover {
+  background-color: #000;
+}
+
+.c-form-submit-button:focus {
+  outline: 0;
+  background-color: #000;
+  border: 2px solid #5876a3;
+}
+
+span{
+  color: red;
+}
+
+nav {
+    text-align: center;
+}
+ 
+nav ul {
+    margin: 10px ;
+    padding: 0 ;
+}
+ 
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    width: 10%; /* ここで項目の幅を指定します */
+}
+ 
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+}
+ 
+nav li:hover{
+    border-bottom: 2px solid #FF7A37; /* 下線の太さや色を指定します */
+}
+
+tr,td,table{
+	margin: auto;
+	text-align:center;
+	border: 1px solid;
+}
+td {
+	width:  320px;
+	height: 50px;
+}
+tr{
+	background-color: beige;
+}
+b{
+	color: cadetblue;
+}
