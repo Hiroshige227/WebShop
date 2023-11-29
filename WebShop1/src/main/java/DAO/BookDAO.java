@@ -125,8 +125,6 @@ public class BookDAO {
 	}
 	//在庫がある本だけを検索する
 	public ArrayList<BookBean> searchData(String bid,String title,String cop,String auth,String numflg){
-		System.out.println("1");
-
 		Connection conn=null;
 		PreparedStatement pstmt=null;
 		ResultSet rset =null;
